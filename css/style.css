@@ -6,6 +6,18 @@
   box-sizing: border-box;
 }
 
+.btn-primary {
+  background-color: green;
+}
+
+.btn-primary:hover {
+  background-color: rgb(119, 150, 119);
+}
+
+.btn-primary:active {
+  background-color: rgb(60, 129, 60);
+}
+
 .logo {
   width: 75px;
   height: auto;
@@ -339,4 +351,21 @@ main {
 
 .carousel-item img {
   object-fit: cover;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
