@@ -1,72 +1,57 @@
 @charset "UTF-8";
-
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .btn-primary {
-  background-color: green;
-}
+  background-color: green; }
 
 .btn-primary:hover {
-  background-color: rgb(119, 150, 119);
-}
+  background-color: #779677; }
 
 .btn-primary:active {
-  background-color: rgb(60, 129, 60);
-}
+  background-color: #3c813c; }
 
 .logo {
   width: 75px;
   height: auto;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .menu-principal {
-  justify-content: center;
-}
+  justify-content: center; }
 
 .menu-principal,
 .busqueda {
   display: flex;
-  align-items: center;
-}
+  align-items: center; }
 
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #e1f4cb;
-}
+  background-color: #e1f4cb; }
 
 .menuprincipal .first-ul {
-  display: inline;
-}
+  display: inline; }
 
 .menuPrincipal li {
-  display: inline;
-}
+  display: inline; }
 
 .container-right {
-  display: flex;
-}
+  display: flex; }
 
 .container-right div {
-  padding: 0 20px;
-}
+  padding: 0 20px; }
 
 .first-ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  position: relative;
-}
+  position: relative; }
 
 .first-ul li {
   display: inline-block;
-  background-color: #bacba9;
-}
+  background-color: #bacba9; }
 
 nav a {
   display: block;
@@ -74,33 +59,28 @@ nav a {
   color: black;
   font-size: 20px;
   line-height: 60px;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 nav a:hover {
-  background-color: darkgrey;
-}
+  background-color: darkgrey; }
 
 .first-ul ul {
   display: none;
   position: absolute;
   list-style: none;
   padding: 0;
-  top: 50px;
-}
+  top: 50px; }
 
-.first-ul li:hover>ul {
+.first-ul li:hover > ul {
   display: inherit;
-  background-color: darkgrey;
-}
+  background-color: darkgrey; }
 
 .first-ul ul li {
   width: 170px;
   float: none;
   display: list-item;
   position: relative;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .container-img {
   display: grid;
@@ -110,8 +90,7 @@ nav a:hover {
   align-content: center;
   justify-content: center;
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
 
 .img1 {
   border: 1px black solid;
@@ -119,25 +98,21 @@ nav a:hover {
   height: 100%;
   align-self: center;
   justify-self: flex-start;
-  grid-column: 1 / 4;
-}
+  grid-column: 1 / 4; }
 
 img {
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 .footer {
   background-color: #3f4739;
   display: flex;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .redesSociales {
   width: 3%;
   height: 3%;
-  align-items: center;
-}
+  align-items: center; }
 
 .principal {
   display: grid;
@@ -145,8 +120,7 @@ img {
   grid-template-rows: auto auto;
   align-content: center;
   justify-content: center;
-  color: white;
-}
+  color: white; }
 
 .nosotros {
   font-family: 'Nunito Sans', sans-serif;
@@ -156,15 +130,13 @@ img {
   text-align-last: center;
   padding: 10px;
   border: 5px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 h1 {
   font-family: 'Montagu Slab', serif;
   font-family: 'Nunito Sans', sans-serif;
   text-align-last: center;
-  font-style: italic;
-}
+  font-style: italic; }
 
 h2 {
   font-family: 'Nunito Sans', sans-serif;
@@ -174,8 +146,7 @@ h2 {
   background-color: burlywood;
   color: black;
   font-style: italic;
-  letter-spacing: 1px;
-}
+  letter-spacing: 1px; }
 
 h3 {
   font-family: 'Nunito Sans', sans-serif;
@@ -185,8 +156,7 @@ h3 {
   background-color: burlywood;
   color: black;
   font-style: italic;
-  letter-spacing: 1px;
-}
+  letter-spacing: 1px; }
 
 h4 {
   font-family: 'Nunito Sans', sans-serif;
@@ -196,8 +166,7 @@ h4 {
   background-color: burlywood;
   color: black;
   font-style: italic;
-  letter-spacing: 1px;
-}
+  letter-spacing: 1px; }
 
 p {
   font-family: 'Montserrat', sans-serif;
@@ -205,23 +174,20 @@ p {
   padding: 15px;
   font-style: normal;
   letter-spacing: 1px;
-  color: black;
-}
+  color: black; }
 
 .vege-indice {
   list-style: none;
   list-style-type: upper-roman;
   font-family: 'EB Garamond', serif;
-  font-family: 'Montserrat', sans-serif;
-}
+  font-family: 'Montserrat', sans-serif; }
 
 .vege-resumen {
   padding: 30px;
   border: 30px;
   letter-spacing: 1px;
   font-family: 'EB Garamond', serif;
-  font-family: 'Montserrat', sans-serif;
-}
+  font-family: 'Montserrat', sans-serif; }
 
 .img-1,
 .img-2,
@@ -230,23 +196,19 @@ p {
 .img-5,
 .img-6 {
   width: 50%;
-  height: 50%;
-}
+  height: 50%; }
 
 main {
   background-image: url("../imagenes/Photo by Claudel Rheault on Unsplash.jpg");
-  background-image: cover;
-}
+  background-image: cover; }
 
 .plaga-img {
   width: 50%;
-  height: 50%;
-}
+  height: 50%; }
 
 .glosario-img {
   width: 35%;
-  height: 35%;
-}
+  height: 35%; }
 
 .container-plaga-inicio {
   width: 100%;
@@ -255,21 +217,13 @@ main {
   text-align: center;
   display: grid;
   grid-column-start: container-plaga-inicio;
-  grid-column-end: container-plaga-inicio;
-}
+  grid-column-end: container-plaga-inicio; }
 
 .container-plaga {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-areas: "container-plaga-inicio"
-    "container-mosca "
-    "container-pulgon"
-    "container-araña"
-    "container-trips"
-    "container-mosca-suelo"
-    "container-oruga";
-  grid-gap: 20px;
-}
+  grid-template-areas: "container-plaga-inicio" "container-mosca " "container-pulgon" "container-araña" "container-trips" "container-mosca-suelo" "container-oruga";
+  grid-gap: 20px; }
 
 .container-mosca {
   width: 90%;
@@ -282,11 +236,7 @@ main {
   grid-column-end: container-mosca;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
-  grid-template-areas: "container-mosca-titulo container-mosca-titulo container-mosca-titulo"
-    "container-mosca-imagen container-mosca-p container-mosca-list"
-    "container-mosca-imagen container-mosca-p container-mosca-list"
-    "container-mosca-imagen container-mosca-p container-mosca-list";
-}
+  grid-template-areas: "container-mosca-titulo container-mosca-titulo container-mosca-titulo" "container-mosca-imagen container-mosca-p container-mosca-list" "container-mosca-imagen container-mosca-p container-mosca-list" "container-mosca-imagen container-mosca-p container-mosca-list"; }
 
 .container-pulgon {
   width: 90%;
@@ -296,8 +246,7 @@ main {
   text-align: center;
   display: grid;
   grid-column-start: container-pulgon;
-  grid-column-end: container-pulgon;
-}
+  grid-column-end: container-pulgon; }
 
 .container-araña {
   width: 90%;
@@ -307,8 +256,7 @@ main {
   text-align: center;
   display: grid;
   grid-column-start: container-araña;
-  grid-column-end: container-araña;
-}
+  grid-column-end: container-araña; }
 
 .container-trips {
   width: 90%;
@@ -318,8 +266,7 @@ main {
   text-align: center;
   display: grid;
   grid-column-start: container-trips;
-  grid-column-end: container-trips;
-}
+  grid-column-end: container-trips; }
 
 .container-mosca-suelo {
   width: 90%;
@@ -329,8 +276,7 @@ main {
   text-align: center;
   display: grid;
   grid-column-start: container-mosca-suelo;
-  grid-column-end: container-mosca-suelo;
-}
+  grid-column-end: container-mosca-suelo; }
 
 .container-oruga {
   width: 90%;
@@ -340,32 +286,22 @@ main {
   text-align: center;
   display: grid;
   grid-column-start: container-oruga;
-  grid-column-end: container-oruga;
-}
-
-
+  grid-column-end: container-oruga; }
 
 .carousel-item .img-box {
-  width: 100%;
-}
+  width: 100%; }
 
 .carousel-item img {
-  object-fit: cover;
-}
+  object-fit: cover; }
 
 p {
   animation-duration: 3s;
-  animation-name: slidein;
-}
+  animation-name: slidein; }
 
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%
-  }
-
+    width: 300%; }
   to {
     margin-left: 0%;
-    width: 100%;
-  }
-}
+    width: 100%; } }
